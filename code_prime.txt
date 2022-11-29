@@ -1,0 +1,18 @@
+let reg_email = "urstrulyankit@pronmail.com";
+let password = "Ankit@1998";
+
+//input-[7, 5]
+//output-A prime number
+
+let bag=0;
+for(let i=0; i<=num; i++){
+   if(num%i==0){
+       bag++
+       }
+     }
+     if (bag==2){
+          console.log("A prime number");
+     }else{
+          console.log("Not a prime number");
+      }
+   }
