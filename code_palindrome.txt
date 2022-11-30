@@ -1,0 +1,19 @@
+let reg_email = "urstrulyankit@pronmail.com";
+let password = "Ankit@1998";
+
+//input- 6 "vikrum"
+//output-Not
+//**Problem 2 :** Check whether a string is palindrome or not.
+
+let A=6;
+let str="vikrum"
+let bag="";
+for(let i=A-1; i<=0; i--){
+   bag+=str[i];
+     }
+    if(str==bag){
+     console.log("palindrome");
+    }else{
+     console.log("not");
+  }
+}
